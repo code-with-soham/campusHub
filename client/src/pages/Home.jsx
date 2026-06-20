@@ -41,7 +41,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent"></div>
         <div className="relative p-10 md:p-20 text-center flex flex-col items-center z-10">
           <span className="bg-white/20 text-white backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase mb-6 border border-white/20">
-            Welcome to Eventora
+            Welcome to campusHub 
           </span>
           <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight tracking-tight drop-shadow-lg">
             Find Your Next <br />
@@ -204,14 +204,14 @@ const Home = () => {
       <footer className="mt-auto pt-16 pb-8 border-t border-gray-200 text-center">
         <div className="flex justify-center items-center gap-2 mb-4">
           <FaTicketAlt className="text-gray-800 text-2xl" />
-          <span className="text-xl font-bold text-gray-900">Eventora</span>
+          <span className="text-xl font-bold text-gray-900">campusHub </span>
         </div>
         <p className="text-gray-500 text-sm mb-6 max-w-md mx-auto">
           The simplest, most dynamic way to manage, discover, and host
           world-class events in your local city. Let's make memories together.
         </p>
         <div className="text-xs text-gray-400 font-medium uppercase tracking-wider">
-          &copy; {new Date().getFullYear()} Eventora Platform. All rights
+          &copy; {new Date().getFullYear()} campusHub  Platform. All rights
           reserved.
         </div>
       </footer>

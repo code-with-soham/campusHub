@@ -20,7 +20,7 @@ const Navbar = () => {
             to="/"
             className="text-white text-2xl font-bold flex items-center gap-2"
           >
-            <FaTicketAlt /> Eventora
+            <FaTicketAlt /> campusHub 
           </Link>
           <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
             <Link

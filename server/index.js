@@ -12,7 +12,12 @@ const bookingRoutes = require("./routes/bookings");
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: ["http://localhost:5173", "https://campus-hub-mocha.vercel.app"],
+    credentials: true,
+  })
+);
 app.use(express.json());
 
 // Routes
